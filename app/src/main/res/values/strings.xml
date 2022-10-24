@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mcdonalds</string>
+
+        <string name="icon_holder">Icon Holder</string>
+        <string name="app_desc">Lorem Ipsum</string>
+        <string name="app_title">Food Choices</string>
+        <string name="ckn">Chicken McNuggets - are made with all white meat chicken and no artificial colors, flavors, or preservatives. There are 170 calories in a 4-piece Chicken McNuggets.</string>
+        <string name="caramel">Caramel Sundae -  combines creamy vanilla soft serve and warm, buttery caramel topping.</string>
+        <string name="chicken">Chicken with Spaghetti - 1 piece of crispy, golden brown chicken thats tender and juicy served with the classic spaghetti with ground beef and signature sauce.</string>
+        <string name="chocolate">Chocolate Fudge - Our classic hot fudge sundae is made with creamy vanilla soft serve and smothered in chocolaty hot fudge topping. </string>
+        <string name="burger">Double Cheeseburger - features two 100% pure all beef patties seasoned with just a pinch of salt and pepper.</string>
+        <string name="fries">French Fries - Deep fried potato stripes straight cut from whole potatoes, salted, and served hot and crunchy</string>
+        <string name="title">McDonalds Menu</string>
+
+</resources>

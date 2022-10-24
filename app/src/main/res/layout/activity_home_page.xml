@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA291C">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="190dp"
+            android:layout_height="98dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/ckn"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="193dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/title"
+            android:textColor="#FFC72C"
+            android:textSize="8pt"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="138dp"
+            android:layout_height="123dp"
+            android:src="@drawable/nugge"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="153dp"
+            android:layout_height="120dp"
+            android:src="@drawable/caramel"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:src="@drawable/fry"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="138dp"
+            android:layout_height="115dp"
+            android:src="@drawable/burger"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="154dp"
+            android:layout_height="102dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/caramel"
+            android:textColor="@color/white"
+            app:layout_column="1"
+
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="169dp"
+            android:layout_height="79dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/fries"
+            android:textColor="#FAFAFA"
+            app:layout_column="0"
+
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="145dp"
+            android:layout_height="88dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/burger"
+            android:textColor="#FDFDFD"
+            app:layout_column="1"
+
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="162dp"
+            android:layout_height="95dp"
+            android:src="@drawable/spaghetti"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="182dp"
+            android:layout_height="105dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/chicken"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+
+            app:layout_row="5" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="141dp"
+            android:layout_height="102dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/chocolate"
+            android:textColor="#FFFFFF"
+            app:layout_column="1"
+
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="78dp"
+            android:layout_height="100dp"
+            android:src="@drawable/chocy"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</RelativeLayout>
